@@ -15,6 +15,26 @@
 - احسب المتوسط باستخدام الصيغة: `(عدد1 + عدد2 + عدد3) / 3`.
 - عرض النتيجة باستخدام دالة `cout`.
 
+
+الحل
+
+	double x, y, z;
+
+	cout << "Enter 3 Num " << endl; 
+	cout << "=========== " << endl;
+	
+	cout << "Enter Num 1 : ";
+	cin >> x;
+	cout << "Enter Num 2 : ";
+	cin >> y;
+	cout << "Enter Num 3 : ";
+	cin >> z;
+
+	double Average = (x + y + z) / 3;
+
+	cout << "Average = " << Average << endl;
+
+
 ---
 
 ### **2. تحديد أكبر رقم بين رقمين**
