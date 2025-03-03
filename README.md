@@ -165,6 +165,23 @@ int main() {
 - استخدم الصيغة التالية للتحويل: `فهرنهايت = (9/5) * المئوية + 32`.
 - عرض النتيجة باستخدام دالة `cout`.
 
+الحل 
+```
+int main() {
+	
+	double x;
+
+	cout << "Enter the Celsius temperature : ";
+	cin >> x;
+
+
+	double f = x * 1.8;
+
+	cout << f + 32 << " degrees Fahrenheit." << endl;
+
+}
+```
+
 ---
 
 ### **6. جدول الضرب**
