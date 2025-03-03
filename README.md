@@ -47,7 +47,9 @@
 - استخدم بنية if-else لمقارنة القيمتين.
 - إذا كان الرقم الأول أكبر، قم بطباعته. وإذا كان الرقم الثاني أكبر، قم بطباعته.
 الحل ب if
-	double x, y;
+
+
+	`double x, y;
 	cout << "Enter First Number: ";
 	cin >> x;
 	cout << "Enter Sacand Number: ";
@@ -62,8 +64,7 @@
 	}
 	else {
 		cout << "The Two Numbers are Equal" << endl;
-	}
-
+	}`
 ---
 
 ### **3. التحقق مما إذا كان الرقم زوجيًا أم فرديًا**
