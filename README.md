@@ -46,6 +46,23 @@
 - استخدم دالة `cin` لأخذ القيم من المستخدم.
 - استخدم بنية if-else لمقارنة القيمتين.
 - إذا كان الرقم الأول أكبر، قم بطباعته. وإذا كان الرقم الثاني أكبر، قم بطباعته.
+الحل ب if
+	double x, y;
+	cout << "Enter First Number: ";
+	cin >> x;
+	cout << "Enter Sacand Number: ";
+	cin >> y;
+
+
+	if (x > y) {
+		cout << "The Largest Number is: " << x << endl;
+	}
+	else if (x < y) {
+		cout << "The Largest Number is: " << y << endl;
+	}
+	else {
+		cout << "The Two Numbers are Equal" << endl;
+	}
 
 ---
 
