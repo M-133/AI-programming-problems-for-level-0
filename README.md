@@ -294,6 +294,19 @@ else {
 - استخدم حلقة while لاستخراج الأرقام واحدة تلو الأخرى باستخدام العمليات `%` و `/`.
 - في كل تكرار، أضف الرقم الأخير إلى الرقم المعكوس بعد ضربه في 10.
 - عرض الرقم المعكوس باستخدام دالة `cout`.
+```
+	int num, reversedNum = 0;
+
+	cout << "Type Num : ";
+	cin >> num;
+
+	while (num != 0) {
+		reversedNum = (reversedNum * 10) + num % 10;
+		num /= 10;
+	}
+
+	cout << "Reversed Num : " << reversedNum << endl; 
+```
 
 ---
 
