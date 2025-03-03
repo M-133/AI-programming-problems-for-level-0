@@ -101,6 +101,26 @@ int main() {
 - إذا كانت النتيجة صفرًا، فإن الرقم زوجي. وإلا فهو فردي.
 - عرض النتيجة باستخدام دالة `cout`.
 
+الحل
+```
+int main() {
+	
+	int x;
+
+	cout << "Type Number : ";
+	
+	cin >> x;
+
+	if (x % 2 == 0) {
+		cout << "The number is even. " << endl;
+	}
+	else if (x % 2 == 1) {
+		cout << "The number is odd. " << endl;
+	}
+
+}
+```
+
 ---
 
 ### **4. حساب مساحة مستطيل**
