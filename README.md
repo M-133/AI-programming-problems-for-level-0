@@ -174,7 +174,6 @@ int main() {
 	cout << "Enter the Celsius temperature : ";
 	cin >> x;
 
-
 	double f = x * 1.8;
 
 	cout << f + 32 << " degrees Fahrenheit." << endl;
