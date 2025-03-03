@@ -196,17 +196,17 @@ int main() {
 ```
 double x;
 
-	cout << "Multiplication Num : ";
-	cin >> x;
+cout << "Multiplication Num : ";
+cin >> x;
 
-	if (x <= 0) {
-		cout << "error";
+if (x <= 0) {
+	cout << "error";
+}
+else {
+	for (int i = 1; i <= 12; i++) {
+		cout << x << " * " << i << " = " << i * x << endl;
 	}
-	else {
-		for (int i = 1; i <= 12; i++) {
-			cout << x << " * " << i << " = " << i * x << endl;
-		}
-	}
+}
 ```
 
 ---
