@@ -46,10 +46,11 @@
 - استخدم دالة `cin` لأخذ القيم من المستخدم.
 - استخدم بنية if-else لمقارنة القيمتين.
 - إذا كان الرقم الأول أكبر، قم بطباعته. وإذا كان الرقم الثاني أكبر، قم بطباعته.
+  
 الحل ب if
 
-
-	`double x, y;
+	
+	double x, y;
 	cout << "Enter First Number: ";
 	cin >> x;
 	cout << "Enter Sacand Number: ";
@@ -64,7 +65,29 @@
 	}
 	else {
 		cout << "The Two Numbers are Equal" << endl;
-	}`
+	}
+ 
+ الحل ب ال function
+ ```
+using namespace std;
+
+static double Max(double x, double y) {
+	return (x > y) ? x : y;
+}
+
+int main() {
+
+	double x, y;
+	cout << "Enter First Number: ";
+	cin >> x;
+	cout << "Enter Sacand Number: ";
+	cin >> y;
+
+	cout << "The Max Is : " << Max(x, y);
+
+}
+```
+
 ---
 
 ### **3. التحقق مما إذا كان الرقم زوجيًا أم فرديًا**
