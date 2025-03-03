@@ -134,7 +134,6 @@ int main() {
 - عرض النتيجة باستخدام دالة `cout`.
 
 ```
-
 static double Area(double x, double y) {
 	return x * y;
 }
