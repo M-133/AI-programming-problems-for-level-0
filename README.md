@@ -133,6 +133,27 @@ int main() {
 - احسب المساحة باستخدام الصيغة: `مساحة = الطول * العرض`.
 - عرض النتيجة باستخدام دالة `cout`.
 
+```
+
+static double Area(double x, double y) {
+	return x * y;
+}
+
+int main() {
+	
+	double x , y;
+
+	cout << "Type height : ";
+	cin >> x;
+
+	cout << "Type width : ";
+	cin >> y;
+
+	cout << "The Area is : " << Area(x,y) << endl;
+
+}
+```
+
 ---
 
 ### **5. تحويل درجات الحرارة من مئوي إلى فهرنهايت**
