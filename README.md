@@ -223,6 +223,23 @@ else {
   - إذا كان الرقم أقل من صفر، فهو سالب.
   - إذا كان الرقم يساوي صفرًا، فهو صفر.
 - عرض النتيجة باستخدام دالة `cout`.
+```
+	double x;
+
+	cout << "Num : ";
+	cin >> x;
+
+
+	if (x > 0) {
+		cout << "Num is Positive " << endl;
+	}
+	else if (x < 0) {
+		cout << "Num is Nigative " << endl;
+	}
+	else if (x == 0){
+		cout << "Num is ZERO " << endl;
+	}
+```
 
 ---
 
@@ -237,6 +254,32 @@ else {
 - قم بإنشاء متغير لتخزين المجموع وابدأه بـ 0.
 - في كل تكرار، أضف الرقم الحالي إلى المتغير الخاص بالمجموع.
 - عرض النتيجة باستخدام دالة `cout`.
+ 
+الحل 
+```
+	double x;
+
+	cout << "Num : ";
+	cin >> x;
+
+	double sum = (x * (x + 1)) / 2;
+
+	cout << sum;
+```
+حل أبطئ
+```
+	double x;
+
+	cout << "Num : ";
+	cin >> x;
+
+	double sum = 0;
+	for (int i = 0; i <= x; i++) {	
+		sum += i;
+	}
+
+	cout << sum;
+```
 
 ---
 
