@@ -322,6 +322,55 @@ else {
 - إذا لم يتم العثور على أي قاسم، فإن الرقم أولي.
 - عرض النتيجة باستخدام دالة `cout`.
 
+الحل
+```
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+
+static bool Isprime(int x) {
+	
+	if (x == 1) {
+		return false;
+	}
+	if (x == 2) {
+		return true;
+	}
+	if (x % 2 == 0) {
+		return false;
+	}
+
+	for (int i = 3; i <= sqrt(x); i += 2) {
+		if (x % i == 0) {
+			return false;
+		}
+	}
+
+	return true;
+
+}
+
+int main() {
+
+	int num;
+
+	cout << "Num : ";
+	cin >> num;
+
+	if (Isprime(num) == true) {
+		cout << num << " Is prime." << endl;
+	}
+	else {
+		cout << num << " Is Not prime." << endl;
+	}
+
+	return 0;
+
+}
+```
+
 ---
 
 هذه المشاكل مناسبة للمبتدئين وتغطي الأساسيات مثل الدوال، الحلقات، الشرطيات، والعمليات الحسابية. يمكنك البدء بحلها خطوة بخطوة لتحسين مهاراتك في البرمجة بلغة C++.
